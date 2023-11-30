@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(253, 252, 247);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-solid {
+  color: rgb(82, 82, 82);
+}

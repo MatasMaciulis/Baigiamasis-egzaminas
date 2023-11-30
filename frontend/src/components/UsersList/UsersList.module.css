@@ -1,0 +1,38 @@
+.container {
+  overflow: auto;
+  height: 560px;
+  width: 1000px;
+  border: 1px solid #464646;
+  border-radius: 8px;
+}
+
+.userTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 15px 0px 15px 0px;
+  border: 1px solid #a3a3a3;
+  color: #404040;
+}
+
+td {
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid #bbbbbb;
+}
+
+.userTable tbody tr:nth-child(even) {
+  background-color: #fdf3e5;
+}
+.userTable tbody tr:hover {
+  background-color: #ebe4d8;
+}
+.userTable th {
+  background-color: rgb(244, 210, 170);
+}

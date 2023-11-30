@@ -1,0 +1,39 @@
+.registrationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.clientContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(244, 210, 170);
+  padding: 10px;
+}
+
+.logo img {
+  width: 170px; /* Keiskite pagal savo poreikius */
+}
+
+.footer {
+  text-align: center;
+}
+
+h1 {
+  padding-left: 10px;
+  color: rgb(19, 19, 19);
+  font-weight: 400;
+  text-align: center;
+}

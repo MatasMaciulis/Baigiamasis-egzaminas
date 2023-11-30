@@ -1,0 +1,38 @@
+.del_button {
+  width: 80px;
+  height: 30px;
+  color: #000000;
+  background-color: rgb(242, 226, 207);
+  border: solid 1px #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  /* Pradinis efektas, kai mygtukas nėra užvestas pelė */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.del_button:hover {
+  /* Efektas, kai pelė užvesta ant mygtuko */
+  background-color: rgb(242, 196, 143);
+  color: #ff0000;
+  /* border-color: #ff0000; */
+}
+
+.upd_button {
+  width: 80px;
+  height: 30px;
+  color: #2e2e2e;
+  background-color: rgb(242, 226, 207);
+  border: solid 1px #010101;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Pradinis efektas, kai mygtukas nėra užvestas pelė */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.upd_button:hover {
+  /* Efektas, kai pelė užvesta ant mygtuko */
+  background-color: rgb(242, 196, 143);
+  color: #ff0000;
+  border-color: #ff0000;
+}
